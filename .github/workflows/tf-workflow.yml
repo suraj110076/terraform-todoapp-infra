@@ -11,6 +11,11 @@ jobs:
     name: Terraform Plan and Apply on Azure
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: environments/dev
+        shell: bash
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
