@@ -15,6 +15,9 @@ jobs:
     - name: Dhondhu Maharaj Rocks!
       run: echo Dhondhu Maharaj
     
+    - name: Rondu Maharaj Rocks!
+      run: echo Rondu Maharaj
 
-
+    - name: Tondu Maharaj Rocks!
+      run: echo Tondu Maharaj
 
