@@ -1,0 +1,12 @@
+name: "Dhondhu Maharaaj"
+
+on: 
+  push:
+    branches: 
+      - 'feature/**'
+      - 'main'
+      - 'hotfix/**'
+  workflow_dispatch:
+
+
+
