@@ -7,7 +7,14 @@ on:
       - 'main'
       - 'hotfix/**'
 
-
+jobs:
+  DhondhuMaharaj: 
+    name: Dhondhu Maharaj
+    runs-on: dhondhu-maharaj
+    steps:
+    - name: Dhondhu Maharaj Rocks!
+      run: echo Dhondhu Maharaj
+    
 
 
 
