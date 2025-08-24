@@ -6,7 +6,7 @@ on:
       - 'feature/**'
       - 'main'
       - 'hotfix/**'
-  workflow_dispatch:
+
 
 
 
