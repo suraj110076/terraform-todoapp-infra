@@ -40,8 +40,11 @@ jobs:
         id: plan
         run: terraform plan -no-color -input=false
         continue-on-error: true
-        working-directory: environments/dev        
-
+        working-directory: environments/dev    
+        
+  manual-approval:
+    runs-on: ubuntu-latest
+    steps:
       - uses: trstringer/manual-approval@v1
         timeout-minutes: 60
          
