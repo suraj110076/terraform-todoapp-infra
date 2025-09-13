@@ -13,7 +13,7 @@ module "rg" {
   rg_tags     = local.common_tags
 }
 
-module "rg" {
+module "rg1" {
   source      = "../../modules/azurerm_resource_group"
   rg_name     = "rg-dev-todoapp-1"
   rg_location = "centralindia"
